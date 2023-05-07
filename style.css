@@ -101,7 +101,7 @@ nav .navigation ul li .rr:hover
 
 #home
 {
-    background-image: linear-gradient(rgba(9 ,5 ,54 ,0.3) , rgba(5 ,4 ,46 ,0.7)) , url("./1.jpg");
+    background-image: linear-gradient(rgba(9 ,5 ,54 ,0.3) , rgba(5 ,4 ,46 ,0.7)) , url("images/1.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -265,7 +265,7 @@ nav .navigation ul li .rr:hover
 #registration
 {
     padding: 6vw 8vw 6vw 8vw;
-    background-image: linear-gradient(rgba(99, 112, 168, 0.5) , rgba(81 ,91 ,233 ,0.5)) , url("./3.jpg");
+    background-image: linear-gradient(rgba(99, 112, 168, 0.5) , rgba(81 ,91 ,233 ,0.5)) , url("images/3.jpg");
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -315,7 +315,7 @@ nav .navigation ul li .rr:hover
     box-shadow: 0 8px 32px 0 rgba(31 ,38 ,135 ,0.37);
 }
 
-#registration .form input
+#registration .form .control input
 {
     margin: 15px 0;
     padding: 15px 10px;
@@ -323,7 +323,7 @@ nav .navigation ul li .rr:hover
     outline: none;
 }
 
-#registration .form input::placeholder
+#registration .form .control input::placeholder
 {
     color: #413c3c;
     font-weight: 500;
@@ -335,7 +335,7 @@ nav .navigation ul li .rr:hover
     margin-top: 20px;
 }
 
-#registration .form a.yellow
+#registration .form button.yellow
 {
     text-decoration: none;
     font-size: 0.9rem;
@@ -346,9 +346,10 @@ nav .navigation ul li .rr:hover
     color: #fff;
     background: #fdc938;
     transition: 0.3s ease;
+    border: none;
 }
 
-#registration .form a.yellow:hover 
+#registration .form button.yellow:hover 
 {
     color: rgb(21 , 21 , 100);
     background: #fff;
