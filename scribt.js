@@ -3,6 +3,7 @@ const username = document.getElementById("username");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
 const password2 = document.getElementById("password2");
+const name1 = document.getElementsByName('name1')[0];
 
 form.addEventListener('submit' , e => {
     e.preventDefault();
@@ -26,6 +27,7 @@ const setSuccess = element => {
     errorDisplay.innerText = "";
     inputControl.classList.add('success');
     inputControl.classList.remove('error');
+    name1.reset();
 }
 
 const isValidEmail = email => {
